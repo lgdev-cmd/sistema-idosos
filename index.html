@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Atividades para Idosos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Sistema de Atividades para Idosos</h1>
+
+  <div id="login" class="card">
+    <h2>Login</h2>
+    <label>Email
+      <input id="email" class="input" type="text">
+    </label>
+    <br><br>
+    <label>Senha
+      <input id="senha" class="input" type="password">
+    </label>
+    <br><br>
+    <button class="btn btn-primary" onclick="login()">Entrar</button>
+  </div>
+
+  <div id="coordenador" class="card" style="display:none;">
+    <h2>Painel do Coordenador</h2>
+
+    <h3>Nova Atividade</h3>
+    <input id="titulo" class="input" placeholder="Nome da atividade">
+    <input id="horario" class="input" placeholder="Horario ex: 10:00">
+    <input id="local" class="input" placeholder="Local ex: Sala A">
+    <input id="instrutor" class="input" placeholder="Instrutor">
+    <br><br>
+    <button class="btn btn-primary" onclick="adicionarAtividade()">Adicionar</button>
+
+    <h3>Atividades cadastradas</h3>
+    <div id="listaAtividades"></div>
+
+    <button class="btn" onclick="sair()">Sair</button>
+  </div>
+
+  <div id="idoso" class="card" style="display:none;">
+    <h2>Atividades disponiveis</h2>
+    <div id="atividadesIdoso"></div>
+    <button class="btn" onclick="sair()">Sair</button>
+  </div>
+
+  <div id="familiar" class="card" style="display:none;">
+    <h2>Agenda do idoso</h2>
+    <div id="atividadesFamiliar"></div>
+    <button class="btn" onclick="sair()">Sair</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
