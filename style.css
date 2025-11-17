@@ -4,6 +4,7 @@ body {
     font-family: "Inter", sans-serif;
     background: #e9eef6;
 }
+
 /* ===== LOGIN ===== */
 .center-page {
     min-height: 100vh;
@@ -13,12 +14,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 h1 {
     color: white;
     font-size: 35px;
     text-align: center;
     margin-bottom: 45px;
 }
+
 .login-card {
     width: 340px;
     background: white;
@@ -26,6 +29,7 @@ h1 {
     border-radius: 18px;
     box-shadow: 0 6px 22px rgba(0,0,0,0.15);
 }
+
 .login-card input {
     width: 97%;
     padding: 10px;
@@ -33,6 +37,7 @@ h1 {
     border: 1px solid #ccc;
     margin-bottom: 12px;
 }
+
 .login-card button {
     width: 100%;
     padding: 12px;
@@ -43,6 +48,7 @@ h1 {
     font-size: 15px;
     cursor: pointer;
 }
+
 /* ===== DASHBOARD ===== */
 .dashboard {
     padding: 50px;
@@ -52,6 +58,7 @@ h1 {
     flex-direction: column;
     align-items: center;
 }
+
 .content-box {
     background: white;
     width: 600px;
@@ -59,10 +66,12 @@ h1 {
     border-radius: 30px;
     box-shadow: 0 6px 25px rgba(0,0,0,0.15);
 }
+
 .section-title {
     font-size: 22px;
     margin-bottom: 20px;
 }
+
 /* Inputs */
 .input-group input,
 .input-group select {
@@ -73,6 +82,7 @@ h1 {
     border: 1px solid #ddd;
     background: #f8f8f8;
 }
+
 .btnAdd {
     width: 100%;
     padding: 12px;
@@ -83,12 +93,14 @@ h1 {
     cursor: pointer;
     margin-top: 5px;
 }
+
 /* Lista de atividades */
 .atividade-lista {
     list-style: none;
     padding: 0;
     margin-top: 25px;
 }
+
 .atividade-lista li {
     background: #fdfdfd;
     padding: 18px;
@@ -99,12 +111,15 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
+
 .info-text {
     max-width: 70%;
 }
+
 .icone {
     font-size: 36px;
 }
+
 .remove-btn {
     margin-top: 8px;
     padding: 8px 14px;
@@ -113,6 +128,7 @@ h1 {
     background: #ddd;
     cursor: pointer;
 }
+
 .logout {
     margin-top: 20px;
     padding: 12px 22px;
